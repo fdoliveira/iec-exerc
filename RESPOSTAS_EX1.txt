@@ -50,13 +50,13 @@ Questões:
 4. Descreva quais são as 3 principais vantagens e desvantagens em se escrever
    CSS utilizando a metodologia BEM
 	4.1 Vantagens
-		4.1.1
-		4.1.2
-		4.1.3
+		4.1.1 Evitar perda de tempo em definir os nomes;
+		4.1.2 Identificação mais clara para os elementos e onde aplicá-los;
+		4.1.3 Visão clara dos estado.
 	4.2 Desvantagens
-		4.2.1
-		4.2.2
-		4.2.3
+		4.2.1 Nomes geralmente ficam muito grandes;
+		4.2.2 Código HTML ilegível devido aos nomes grandes;
+		4.2.3 Dificulta a modificação por herança
 
 5. Em relação à escrita de CSS em aplicações front-end, pode-se afirmar que o
    override de estilos pode prejudicar a performance e manutenibilidade da
