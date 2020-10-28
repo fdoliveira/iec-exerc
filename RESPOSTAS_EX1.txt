@@ -3,40 +3,74 @@ Maria Clara L. Monteiro
 François Dantas Oliveira
 
 Questões:
-1. Sobre a arquitetura de Single Page Applications, explique 3 vantagens e 3 desvantagens em relação ao modelo Multi Page Application:
-	1. Vantagens
-		1.1 Após a carga inicial da aplicação apenas os dados trafegam entre o servidor e cliente
-		1.2 Possibilita trabalhar de forma offline em algumas situações
-		1.3 Melhor experiência do usuário, já que não e necessário o recarregamento da página em toda ação do usuário
-		1.4 Possibilita o debug da aplicação cliente no browser
-		1.5 Baixo acoplamento entre o servidor e cliente, possibilitando a integração com front-end mobile
-	2. Desvantagens
-		2.1 Difícil de integrar com ferramentas de busca
-		2.2 Precisa de um tempo maior para carga inicial
-		2.3 Uso excessivo de memória na aplicação pode causar problemas
-		2.4 Podem ser mais suscetíveis a ataques Cross-Site Scripting (XSS)
+1. Sobre a arquitetura de Single Page Applications, explique 3 vantagens e 3
+   desvantagens em relação ao modelo Multi Page Application:
+	1.1. Vantagens
+		1.1.1 Após a carga inicial da aplicação apenas os dados trafegam entre
+		      o servidor e cliente
+		1.1.2 Possibilita trabalhar de forma offline em algumas situações
+		1.1.3 Melhor experiência do usuário, já que não e necessário o
+		      recarregamento da página em toda ação do usuário
+		1.1.4 Possibilita o debug da aplicação cliente no browser
+		1.1.5 Baixo acoplamento entre o servidor e cliente, possibilitando a
+		      integração com front-end mobile
+	1.2. Desvantagens
+		1.2.1 Difícil de integrar com ferramentas de busca
+		1.2.2 Precisa de um tempo maior para carga inicial
+		1.2.3 Uso excessivo de memória na aplicação pode causar problemas
+		1.2.4 Podem ser mais suscetíveis a ataques Cross-Site Scripting (XSS)
 
-2. Quais são as principais responsabilidades de um(a) profissional de Arquitetura de Front Ends?
-	1. Ser capaz de escolher, entre as diversas opções de ferramentas disponíveis no mercado, a melhor para um determinado tipo de projeto;
-	2. Capacidade de criar provas de conceito(POC) para auxiliar na tomada de decisão principalmente nas questões técnicas;
-	3. Definir o design e auxiliar na criação da camada do sistema que vai interagir com o usuário;
-	4. Compartilhar componentes entre os diversos times web.
+2. Quais são as principais responsabilidades de um(a) profissional de
+   Arquitetura de Front Ends?
+	2.1. Ser capaz de escolher, entre as diversas opções de ferramentas
+	     disponíveis no mercado, a melhor para um determinado tipo de projeto;
+	2.2. Capacidade de criar provas de conceito(POC) para auxiliar na tomada de
+	     decisão principalmente nas questões técnicas;
+	2.3. Definir o design e auxiliar na criação da camada do sistema que vai
+	     interagir com o usuário;
+	2.4. Compartilhar componentes entre os diversos times web;
+	2.5. Disseminar o conhecimento sobre o projeto entre as equipes.
 
-3. Quais são as principais vantagens e desvantagens em se utilizar Javascript/CSS em bloco em relação a escrita em múltiplos arquivos externos?
-	1. Vantagens
-		1.1 Maior desempenho, quando o arquivo HTML é carregado o estilo vem junto diminuindo o tempo de parse da página no browser
-		1.2 Simple e Fácil entendimento, pois se aplica apenas a página em que ele é utilizado
-	2. Desvantagens
-		2.1 Pouca reusabilidade, já que o CSS fica no mesmo arquivo que o HTML e não pode ser reutilizado em outras páginas
-		2.2 Manutenibilidade baixa, os estilos ficam espalhados por arquivos diferentes e para mudar algum estilo temos que mudar em todos os arquivos em que ele foi usado
-		2.3 Pode ser confuso, pois estilos com mesmo nome podem representar estilos diferentes em diversos arquivos
+3. Quais são as principais vantagens e desvantagens em se utilizar
+   Javascript/CSS em bloco em relação a escrita em múltiplos arquivos externos?
+	3.1. Vantagens
+		3.1.1 Maior desempenho, quando o arquivo HTML é carregado o estilo vem
+		      junto diminuindo o tempo de parse da página no browser
+		3.1.2 Simple e Fácil entendimento, pois se aplica apenas a página em
+		      que ele é utilizado
+	3.2. Desvantagens
+		3.2.1 Pouca reusabilidade, já que o CSS fica no mesmo arquivo que o
+		      HTML e não pode ser reutilizado em outras páginas
+		3.2.2 Manutenibilidade baixa, os estilos ficam espalhados por arquivos
+		      diferentes e para mudar algum estilo temos que mudar em todos os
+			  arquivos em que ele foi usado
+		3.2.3 Pode ser confuso, pois estilos com mesmo nome podem representar
+		      estilos diferentes em diversos arquivos
 
-4. Descreva quais são as 3 principais vantagens e desvantagens em se escrever CSS
-utilizando a metodologia BEM
+4. Descreva quais são as 3 principais vantagens e desvantagens em se escrever
+   CSS utilizando a metodologia BEM
+	4.1 Vantagens
+		4.1.1
+		4.1.2
+		4.1.3
+	4.2 Desvantagens
+		4.2.1
+		4.2.2
+		4.2.3
 
-5. Em relação à escrita de CSS em aplicações front-end, pode-se afirmar que o override de estilos pode prejudicar a performance e manutenibilidade da aplicação, uma vez que o browser precisa fazer o “repainting” sempre que uma classe tem o seu estilo sobrescrito e corre-se o risco de perdermos o controle de quais classes devemos editar caso ocorra uma refatoração nos estilos. Cite e explique 3 formas, metodologias ou ferramentas que auxiliam a evitar o override de estilos no css
+5. Em relação à escrita de CSS em aplicações front-end, pode-se afirmar que o
+   override de estilos pode prejudicar a performance e manutenibilidade da
+   aplicação, uma vez que o browser precisa fazer o “repainting” sempre que uma
+   classe tem o seu estilo sobrescrito e corre-se o risco de perdermos o
+   controle de quais classes devemos editar caso ocorra uma refatoração nos
+   estilos. Cite e explique 3 formas, metodologias ou ferramentas que auxiliam
+   a evitar o override de estilos no css
+   	5.1
+   	5.2
+   	5.3
 
-6. Além do webpack, existem algumas outras opções na comunidade para o bundling de
-arquivos e automação de tarefas no desenvolvimento front-end. Pesquise dois outros
-bundlers e descreva resumidamente o seu funcionamento. Caso faça sentido, crie uma
-prova de conceito para conseguir explorar melhor as tecnologias e ter uma melhor visão sobre a tecnologia descrita
+6. Além do webpack, existem algumas outras opções na comunidade para o bundling
+   de arquivos e automação de tarefas no desenvolvimento front-end. Pesquise
+   dois outros bundlers e descreva resumidamente o seu funcionamento. Caso faça
+   sentido, crie uma prova de conceito para conseguir explorar melhor as
+   tecnologias e ter uma melhor visão sobre a tecnologia descrita
