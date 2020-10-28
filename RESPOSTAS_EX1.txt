@@ -7,18 +7,18 @@ Questões:
    desvantagens em relação ao modelo Multi Page Application:
 	1.1. Vantagens
 		1.1.1 Após a carga inicial da aplicação apenas os dados trafegam entre
-		      o servidor e cliente
-		1.1.2 Possibilita trabalhar de forma offline em algumas situações
+		      o servidor e cliente;
+		1.1.2 Possibilita trabalhar de forma offline em algumas situações;
 		1.1.3 Melhor experiência do usuário, já que não e necessário o
-		      recarregamento da página em toda ação do usuário
-		1.1.4 Possibilita o debug da aplicação cliente no browser
+		      recarregamento da página em toda ação do usuário;
+		1.1.4 Possibilita o debug da aplicação cliente no browser;
 		1.1.5 Baixo acoplamento entre o servidor e cliente, possibilitando a
-		      integração com front-end mobile
+		      integração com front-end mobile.
 	1.2. Desvantagens
-		1.2.1 Difícil de integrar com ferramentas de busca
-		1.2.2 Precisa de um tempo maior para carga inicial
-		1.2.3 Uso excessivo de memória na aplicação pode causar problemas
-		1.2.4 Podem ser mais suscetíveis a ataques Cross-Site Scripting (XSS)
+		1.2.1 Difícil de integrar com ferramentas de busca;
+		1.2.2 Precisa de um tempo maior para carga inicial;
+		1.2.3 Uso excessivo de memória na aplicação pode causar problemas;
+		1.2.4 Podem ser mais suscetíveis a ataques Cross-Site Scripting (XSS).
 
 2. Quais são as principais responsabilidades de um(a) profissional de
    Arquitetura de Front Ends?
@@ -35,17 +35,17 @@ Questões:
    Javascript/CSS em bloco em relação a escrita em múltiplos arquivos externos?
 	3.1. Vantagens
 		3.1.1 Maior desempenho, quando o arquivo HTML é carregado o estilo vem
-		      junto diminuindo o tempo de parse da página no browser
+		      junto diminuindo o tempo de parse da página no browser;
 		3.1.2 Simple e Fácil entendimento, pois se aplica apenas a página em
-		      que ele é utilizado
+		      que ele é utilizado.
 	3.2. Desvantagens
 		3.2.1 Pouca reusabilidade, já que o CSS fica no mesmo arquivo que o
-		      HTML e não pode ser reutilizado em outras páginas
+		      HTML e não pode ser reutilizado em outras páginas;
 		3.2.2 Manutenibilidade baixa, os estilos ficam espalhados por arquivos
 		      diferentes e para mudar algum estilo temos que mudar em todos os
-			  arquivos em que ele foi usado
+			  arquivos em que ele foi usado;
 		3.2.3 Pode ser confuso, pois estilos com mesmo nome podem representar
-		      estilos diferentes em diversos arquivos
+		      estilos diferentes em diversos arquivos.
 
 4. Descreva quais são as 3 principais vantagens e desvantagens em se escrever
    CSS utilizando a metodologia BEM
