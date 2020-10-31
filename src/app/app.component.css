@@ -3,10 +3,6 @@
   width: 40%;
 }
 
-.coment {
-    width: 100%;
-  }
-
 .row:after {
   content: "";
   display: table;
@@ -28,4 +24,5 @@
   width: 100%;
   margin: 1%;
   background-color: #ffffff;
+  text-align: center;
 }
