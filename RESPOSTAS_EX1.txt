@@ -65,12 +65,35 @@ Questões:
    controle de quais classes devemos editar caso ocorra uma refatoração nos
    estilos. Cite e explique 3 formas, metodologias ou ferramentas que auxiliam
    a evitar o override de estilos no css
-   	5.1
-   	5.2
-   	5.3
+   	5.1 Metodologia BEM - prioriza com ênfase o adoção de ‘classes’ em lugar de IDs, por serem aquelas, reutilizáveis. 
+    Essa metodologia é utilizada seguindo técnicas que facilitam a construção do código,
+    melhorando o desenvolvimento e a agilidade, 
+    diminuindo o tempo de manutenção e auxiliando na conservação do código.
+   	5.2 Metodologia SMACSS - aborda os componentes que devem começar com um prefixo e que este deve ser totalmente significativo. 
+    Para os elementos deve-se utilizar o nome do modulo, traço e o nome do elemento.
+   	5.3 Metodologia RSCSS - nomeia componentes com 2 palavras e usa traço para separa-lás, 
+    além de seus elementos terem apenas 1 palavra. 
+    Para os elementos filhos de um componente, utiliza sempre que possível o seletor >, 
+    provendo uma melhor performance e evitando conflitos para elementos internos com o mesmo nome, 
+    utiliza também classes ao invés de tags sempre que possível, 
+    e quando nomear elementos com mais de duas palavras, concatena as mesmas.
 
 6. Além do webpack, existem algumas outras opções na comunidade para o bundling
    de arquivos e automação de tarefas no desenvolvimento front-end. Pesquise
    dois outros bundlers e descreva resumidamente o seu funcionamento. Caso faça
    sentido, crie uma prova de conceito para conseguir explorar melhor as
    tecnologias e ter uma melhor visão sobre a tecnologia descrita
+   
+   Parcel - é um empacotador de aplicativos da web, diferenciado por sua experiência de desenvolvedor. 
+   Ele oferece desempenho extremamente rápido utilizando processamento multicore e requer configuração zero.
+   pode aceitar qualquer tipo de arquivo como ponto de entrada. 
+   Se vincular o arquivo JavaScript principal no HTML usando um caminho relativo, 
+   o Parcel também o processará e substituirá a referência por um URL para o arquivo de saída além de converter ativos JS em ES5.
+   Possui um servidor de desenvolvimento embutido, que reconstruirá automaticamente a aplicaçao conforme é alterado os arquivos 
+   e oferece suporte à substituição de módulos dinâmicos para um desenvolvimento rápido.
+   
+   Rollup - é um empacotador de módulo para JavaScript que compila pequenos pedaços de código em algo maior e mais complexo, 
+   como uma biblioteca ou aplicativo. Ele usa o novo formato padronizado para módulos de código incluídos na revisão ES6 do JavaScript, 
+   em vez de soluções idiossincráticas anteriores, como CommonJS e AMD. Os módulos ES permitem 
+   combinar livre e perfeitamente as funções individuais mais úteis de suas bibliotecas favoritas. 
+   Pode ser usado por meio de uma interface de linha de comando com um arquivo de configuração opcional ou por meio de sua API JavaScript .
